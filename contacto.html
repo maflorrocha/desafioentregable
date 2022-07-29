@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fahkwang:wght@200;300&display=swap" rel="stylesheet">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <main id="main" class="gridinicio">      
+        <div class="cabezadepagina">
+            <div class="header">
+                    WALABI 
+            </div>
+        
+            <div class="nav">
+                <span> 
+                    <h4>
+                        <a href="index.html">Inicio |</a>
+                        <a href="walabi.html"> Walabi |</a>
+                        <a href="team.html">Team |</a>
+                        <a href="portfolio.html"> Portfolio |</a>
+                        <a href="contacto.html">Contacto</a>
+                    </h4>
+                </span>
+            </div>
+        </div>
+
+
+        <div class="contacto">
+            <div class="contacto__titulo"> <h2>Quiero más información</h2> </div>
+
+            <div class="contacto__formulario">
+                <fieldset>
+                    <form action="guardar.php" method="post">
+                        <section class="datos">
+                            <span>
+                                <label for="Nombre">Nombre:</label>
+                                <input id="nombre" class="input" type="text" name="Nombre">
+                                <label for="Apellido">Apellido:</label>
+                                <input id="Apellido" class="input" type="text" name="Apellido">
+                            </span>
+                        </section>
+
+                        <section class="datos">
+                            <span>
+                                <label for="Telefono">Telefono:</label>
+                                <input class="input" type="text" name="Telefono">
+                                <label for="Mail">Mail:</label>
+                                <input class="input" type="text" name="Mail">
+                            </span>
+                        </section>
+
+                        <section class="reunion">
+                            <span>
+                                Quiero una reunión:
+                                <label for="Presencial">Presencial</label>
+                                <input type="radio" name="Tipo" value="Presencial">
+                                <label for="Virtual">Virtual</label>
+                                <input type="radio" name="Tipo" value="Virtual">
+                            </span>
+                        </section>
+
+                        <section class="meinteresa">
+                            <span>
+                                Estoy interesado/a en: <br>
+                                 Hormiga Negra
+                                <input class="checkbox" type="checkbox" name="Proyecto" value="Hormiga Negra">
+                                Bebedero
+                                <input class="checkbox" type="checkbox" name="Proyecto" value="Bebedero">
+                                Átiko
+                                <input class="checkbox" type="checkbox" name="Proyecto" value="Átiko">
+                                Tengo un Proyecto
+                                <input class="checkbox" type="checkbox" name="Proyecto" value="Tengo un Proyecto">
+                            </span>
+                        </section>
+
+
+                        <section class="comentarios">
+                                <textarea name="Comentarios" id="" cols="60" rows="10" placeholder="COMENTARIOS"></textarea>
+                        </section>
+
+                        <section class="enviar">
+                                <input class="boton" type="submit" value="ENVIAR">
+                        </section>
+                    </form>
+                </fieldset>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer__dondeestamos">
+                <h6>DONDE ESTAMOS<h6>
+                <h6>Paraná 123 of 19</h6>
+                <h6>tel 1122334455</h6>   
+            </div>
+                
+            <div class="footer__mapa">
+                <a href="https://www.google.com/maps/place/Paran%C3%A1+123,+C1037+CABA/@-34.6074318,-58.3875922,17z/data=!3m1!4b1!4m5!3m4!1s0x95bccac49187610b:0xf1ecc4760baa90ee!8m2!3d-34.6074318!4d-58.3875922">
+                    <img src="img/mapa.png" alt="mapa">
+                </a>
+                
+            </div>
+                    
+            <div class="footer__facebook">
+                <a href="https://facebook.com/">
+                    <img class="facebook" link="https://facebook.com" class= "piedepagina__logoredes" src="img/facebook.png" alt="facebook">
+                </a>
+            </div>
+
+            <div class="footer__instagram">
+                <a href="https://www.instagram.com/">
+                    <img class="instagram" src="img/instagram-logo-icone5.png" alt="instagram-logo-icone5">
+                </a>
+            </div>
+
+            <div class="footer__nuestrasredes"> <h6>NUESTRAS REDES</h6></div>
+
+        </div>
+        
+    </main>
+
+
+</body>
+</html>
