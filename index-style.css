@@ -76,7 +76,26 @@
         position: relative;
         left: 0px;
         bottom: 225px;
+        animation-name: efectotitulo;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        animation-duration: 30s;
         
+        
+    }
+
+    @keyframes efectotitulo {
+        0% {width: 0px;
+        }
+        10% {
+            width: 900px;
+        }
+        11% {
+            width: 900px;
+        }
+        100%{
+            width: 900px;
+        }
     }
 
     .cuadro2 {
@@ -88,6 +107,25 @@
         right: 0px;
         bottom: 225px;
         left: 0px;
+        animation-name: efectosubtitulo;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        animation-duration: 30s;
+        
+    }
+
+    @keyframes efectosubtitulo {
+        0% {width: 0px;
+        }
+        10% {
+            width: 900px;
+        }
+        11% {
+            width: 900px;
+        }
+        100%{
+            width: 900px;
+        }
     }
 
     .cuadro3 {
@@ -98,7 +136,27 @@
         position: relative;
         bottom: 160px;
         left: 275px;
+        animation-name: efectocuadroparrafo;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        animation-duration: 30s;
     }
+
+    @keyframes efectocuadroparrafo {
+        0% {width: 0px;
+        }
+        25% {
+            width: 0px;
+        }
+        35% {width:1074px;
+        }
+        100% {
+            width: 1074px;
+        }
+        
+    }
+
+    
 
     .section {
         height: 650px;
@@ -118,7 +176,25 @@
         padding-top: 90px;
         position: relative;
         z-index: 100;
+        animation-duration: 30s;
+        animation-name: aparecetitulo;
+        animation-iteration-count: infinite;
     }
+
+    @keyframes aparecetitulo {
+        0% {
+            opacity: 0;
+        }
+        10% {opacity: 0;
+        }
+        20% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
 
     .section h2 {
         color: #f5f3e9;
@@ -129,6 +205,23 @@
         position: relative;
         z-index: 100;
         bottom: 5px;
+        animation-duration: 30s;
+        animation-name: aparecesubtitulo;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes aparecesubtitulo {
+        0% {
+            opacity: 0;
+        }
+        20% {opacity: 0;
+        }
+        25% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 1;
+        }
     }
 
     .section p {
@@ -144,7 +237,27 @@
         z-index: 100;
         top: 40px;
         font-family: 'Fahkwang', sans-serif;
+        animation-duration: 30s;
+        animation-name: efectoparrafo;
+        animation-iteration-count: infinite;
 
+
+    }
+
+    @keyframes efectoparrafo {
+        0% {
+            opacity: 0;
+        }
+        25% {
+            opacity: 0;
+        }
+        30% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 1;
+        }
+        
     }
 
     .footer {
@@ -684,8 +797,26 @@
         padding-left: 170px;
         position: relative;
         z-index: 100;
-
+        animation-duration: 30s;
+        animation-name: aparecetitulomd;
+        animation-iteration-count: infinite;
     }
+
+    @keyframes aparecetitulomd {
+        0% {
+            opacity: 0;
+        }
+        10% {opacity: 0;
+        }
+        20% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    
 
     .section h2 {
         color:azure;
@@ -697,7 +828,25 @@
         position: relative;
         z-index: 100;
         bottom: 5px;
+        animation-duration: 30s;
+        animation-name: aparecesubtitulo;
+        animation-iteration-count: infinite;
     }
+
+    @keyframes aparecesubtitulo {
+        0% {
+            opacity: 0;
+        }
+        20% {opacity: 0;
+        }
+        25% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    
 
     .section p {
         font-family:'Fahkwang', sans-serif;
@@ -712,7 +861,28 @@
         z-index: 100;
         top: 40px;
         font-family: 'Fahkwang', sans-serif;
+        animation-duration: 30s;
+        animation-name: efectoparrafomd;
+        animation-iteration-count: infinite;
 
+
+    }
+
+    @keyframes efectoparrafomd {
+        0% {
+            opacity: 0;
+        }
+        25% {
+            opacity: 0;
+        }
+        30% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 1;
+        }
+        
+    
     }
 
     .cuadro {
@@ -723,8 +893,26 @@
         position: relative;
         left: 0px;
         bottom: 225px;
-        
+        animation-name: efectotitulomd;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        animation-duration: 30s;
     }
+
+    @keyframes efectotitulomd {
+        0% {width: 0px;
+        }
+        10% {
+            width: 500px;
+        }
+        11% {
+            width: 500px;
+        }
+        100%{
+            width: 500px;
+        }
+    }
+
 
     .cuadro2 {
         width: 500px;
@@ -735,7 +923,27 @@
         right: 0px;
         bottom: 225px;
         left: 0px;
+        animation-name: efectosubtitulomd;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        animation-duration: 30s;
+        
     }
+
+    @keyframes efectosubtitulomd {
+        0% {width: 0px;
+        }
+        10% {
+            width: 500px;
+        }
+        11% {
+            width: 500px;
+        }
+        100%{
+            width: 500px;
+        }
+    }
+
 
     .cuadro3 {
         width: 600px;
@@ -745,7 +953,26 @@
         position: relative;
         bottom: 160px;
         left: 100px;
+        animation-name: efectocuadroparrafomd;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        animation-duration: 30s;
     }
+
+    @keyframes efectocuadroparrafomd {
+        0% {width: 0px;
+        }
+        25% {
+            width: 0px;
+        }
+        35% {width:600px;
+        }
+        100% {
+            width: 600px;
+        }
+        
+    }
+    
 
     .teamsection {
         grid-row: 2/3;
@@ -994,6 +1221,7 @@
     .datos {
         margin-bottom: 20px;
     }
+
 
     .reunion {
         margin-bottom: 20px;
