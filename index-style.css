@@ -488,9 +488,19 @@
     .datos label{
         padding: 10px;
     }
-    .datos input{
+    .datos .input{
         border: none;
-        background-color: orange
+        background-color: orange;
+        color: #f5f3e9;
+        height: 20px;
+        transition: all 2s;
+        
+    }
+
+    .datos .input:focus {
+        height: 30px;
+        background-color: white;
+        color: #454546;
     }
 
     .reunion {
@@ -1000,6 +1010,7 @@
         padding: 3px;
     }
 
+   
 
 
 
