@@ -418,6 +418,7 @@
         height: 120px;
         font-family: 'Fahkwang', sans-serif;
         font-size: 30px;
+
     }
 
     .presentacion__titulo h1 {
@@ -439,7 +440,29 @@
     .presentacion__subtitulo h2 {
         position: relative;
         top: 15px;
+        animation-duration: 60s;
+        animation-name: presentacionsubt;
+        animation-iteration-count: infinite;
+
+
     }
+
+    @keyframes presentacionsubt {
+        0% {
+            opacity: 0;
+        }
+        2% {
+            opacity: 0;
+        }
+        3% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 1;
+        }
+        
+    }
+    
 
     .presentacion__parrafo {
         background-color: #f5f3e9;
@@ -449,8 +472,33 @@
         width:689px;
         font-family: 'Fahkwang', sans-serif;
         padding: 25px;
-    
+        
     }
+
+    .presentacion__parrafo p {
+        animation-duration: 60s;
+        animation-name: presentacionparrafo;
+        animation-iteration-count: infinite;
+
+
+    }
+
+    @keyframes presentacionparrafo {
+        0% {
+            opacity: 0;
+        }
+        5% {
+            opacity: 0;
+        }
+        6% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 1;
+        }
+        
+    }
+    
 
     
     .imagen {  
@@ -1079,7 +1127,29 @@
     .presentacion__subtitulo h2 {
         position: relative;
         top: 0px;
+        animation-duration: 60s;
+        animation-name: presentacionsubtmd;
+        animation-iteration-count: infinite;
+
+
     }
+
+    @keyframes presentacionsubtmd {
+        0% {
+            opacity: 0;
+        }
+        2% {
+            opacity: 0;
+        }
+        3% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 1;
+        }
+        
+    }
+    
 
     .presentacion__parrafo {
         background-color: #f5f3e9;
@@ -1091,6 +1161,30 @@
         padding: 25px;
         position: relative;
         font-size: 20px;
+    }
+
+    .presentacion__parrafo p {
+        animation-duration: 60s;
+        animation-name: presentacionparrafomd;
+        animation-iteration-count: infinite;
+
+
+    }
+
+    @keyframes presentacionparrafomd {
+        0% {
+            opacity: 0;
+        }
+        5% {
+            opacity: 0;
+        }
+        6% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 1;
+        }
+        
     }
 
     .gridportfolio {
