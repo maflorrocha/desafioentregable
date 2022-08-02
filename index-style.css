@@ -685,7 +685,7 @@
     .gridinicio {
         display: grid;
         max-height: 1024px;
-        grid-template-rows:3fr 19fr 2fr ;
+        grid-template-rows:4fr 19fr 3fr ;
         grid-template-columns: 1fr;
     }
     
@@ -1311,11 +1311,11 @@
         color: #f5f3e9;
         font-family: 'Fahkwang', sans-serif;
         border: none;
+    }
 
     .datos {
         margin-bottom: 20px;
     }
-
 
     .reunion {
         margin-bottom: 20px;
@@ -1331,13 +1331,6 @@
         background-color: orange;
         padding: 3px;
     }
-
-   
-
-
-
-
-
 }
 
   
